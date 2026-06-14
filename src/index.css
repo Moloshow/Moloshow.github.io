@@ -1,0 +1,196 @@
+@import "tailwindcss";
+
+/* ─── Tokens ─── */
+:root {
+  --bg-primary: #0d0b1e;
+  --bg-secondary: #12102a;
+  --bg-card: #1a1836;
+  --border: rgba(167, 139, 250, 0.1);
+  --border-hover: rgba(167, 139, 250, 0.3);
+  --accent: #a78bfa;
+  --accent-dim: rgba(167, 139, 250, 0.15);
+  --text-primary: #e8e6f4;
+  --text-secondary: #9d9bbf;
+  --text-muted: #5c5a7a;
+}
+
+.purple {
+  color: var(--accent) !important;
+  font-weight: 500;
+}
+
+/* ─── Navbar ─── */
+.nav-link {
+  position: relative;
+  z-index: 1;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 4px;
+  width: 0;
+  border-radius: 16px;
+  background: var(--accent);
+  bottom: -4px;
+  left: 0;
+  z-index: -1;
+  transition: all 0.3s ease-out 0s;
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* ─── Base ─── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #1a1836; }
+::-webkit-scrollbar-thumb { background: rgba(167, 139, 250, 0.4); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(167, 139, 250, 0.65); }
+
+/* ─── Selection ─── */
+::selection {
+  background: rgba(167, 139, 250, 0.25);
+  color: var(--text-primary);
+}
+
+/* ─── Layout ─── */
+.section-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.section-padding { padding: 5rem 0; }
+
+@media (max-width: 768px) {
+  .section-padding { padding: 3.5rem 0; }
+}
+
+/* ─── Scroll reveal ─── */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.visible { opacity: 1; transform: translateY(0); }
+.reveal-delay-1 { transition-delay: 0.08s; }
+.reveal-delay-2 { transition-delay: 0.16s; }
+.reveal-delay-3 { transition-delay: 0.24s; }
+.reveal-delay-4 { transition-delay: 0.32s; }
+.reveal-delay-5 { transition-delay: 0.40s; }
+
+/* ─── Card ─── */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  overflow: hidden;
+}
+.card:hover {
+  border-color: var(--border-hover);
+  box-shadow: 0 8px 32px rgba(124, 58, 237, 0.15);
+  transform: translateY(-3px);
+}
+
+/* ─── Section divider ─── */
+.section-alt {
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.04) 0%, rgba(17, 15, 38, 1) 60%);
+}
+
+/* ─── Expand button ─── */
+.expand-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  transition: color 0.2s;
+  font-family: inherit;
+  font-weight: 400;
+}
+.expand-btn:hover { color: var(--accent); }
+
+/* ─── Hamburger ─── */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  padding: 4px;
+  background: none;
+  border: none;
+}
+.hamburger-line {
+  width: 20px;
+  height: 1.5px;
+  background: var(--text-muted);
+  border-radius: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+@media (max-width: 768px) {
+  .hamburger { display: flex; }
+}
+
+/* ─── Tech icon card ─── */
+.tech-icon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 0.75rem;
+  border-radius: 10px;
+  background: rgba(167, 139, 250, 0.04);
+  border: 1px solid rgba(167, 139, 250, 0.1);
+  transition: background 0.25s, border-color 0.25s, transform 0.25s;
+  cursor: default;
+}
+.tech-icon-card:hover {
+  background: rgba(167, 139, 250, 0.1);
+  border-color: rgba(167, 139, 250, 0.3);
+  transform: translateY(-3px);
+}
+
+/* ─── Animations ─── */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
