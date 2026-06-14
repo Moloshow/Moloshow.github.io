@@ -1,10 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="8" fill="#0d1220"/>
-  <text x="16" y="22" text-anchor="middle" font-family="Inter, sans-serif" font-weight="800" font-size="14" fill="url(#g)">AA</text>
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#60a5fa"/>
-      <stop offset="100%" stop-color="#818cf8"/>
-    </linearGradient>
-  </defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#17100e"/><text x="44" y="66" font-family="Arial, sans-serif" font-size="46" font-weight="900" text-anchor="middle" fill="#f8ede8" letter-spacing="-3">AA</text><circle cx="80" cy="64" r="6" fill="#fb923c"/></svg>
