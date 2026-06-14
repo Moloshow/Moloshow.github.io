@@ -26,11 +26,11 @@ export const professionalProjects: Project[] = [
     id: 'aimflow',
     title: 'AimFlow',
     image: '/aimflow.PNG',
-    subtitle: 'End-to-End MLOps Platform',
+    subtitle: 'Proprietary End-to-End MLOps Ecosystem (Built From Scratch)',
     badge: 'R&D Project',
     period: '2025 – Present',
     description:
-      'A standalone desktop MLOps platform that automates the complete model lifecycle - from dataset management to Docker deployment - without relying on cloud infrastructure.',
+      'Architected and developed a complete desktop-native MLOps ecosystem from scratch. Unifies datasets, multi-architecture training pipelines, hardware-optimized inference, and Dockerized deployment into a single cohesive platform.',
     context:
       'As a CV consultant, I kept rebuilding the same manual setup at every project: training configs, experiment tracking, evaluation, export. No existing tool covered the full pipeline simply. AimFlow was born from that frustration.',
     approach:
@@ -42,17 +42,16 @@ export const professionalProjects: Project[] = [
       'YAML-based interactive config (no manual file editing)',
     ],
     tech: ['Tauri', 'Rust', 'React', 'TypeScript', 'Python', 'PyTorch', 'MLflow', 'Optuna', 'FastAPI', 'Docker', 'SQLite'],
-    links: [{ label: 'Code on request', url: 'https://github.com/Moloshow' }],
   },
   {
     id: 'aimlab',
     title: 'AimLab',
     image: '/aimlab.PNG',
-    subtitle: 'Interactive Semantic Annotation Platform',
+    subtitle: 'Custom Desktop Annotation Studio (Built From Scratch)',
     badge: 'R&D Project',
     period: '2025 – Present',
     description:
-      'A standalone desktop annotation tool combining SAM 2 zero-shot segmentation, classical CV algorithms, and an active learning pipeline - designed to eliminate the biggest bottleneck in applied CV projects.',
+      'Engineered a fully custom, high-performance desktop annotation studio. Integrates advanced state machines, custom geometric tools, and deep learning microservices (SAM 2) to solve complex computer vision labeling bottlenecks.',
     context:
       'Manual annotation was consuming massive chunks of every project. Existing tools (CVAT, LabelStudio) are heavyweight, web-based, and lack AI assistance. I needed something desktop-native, fast, and capable of closing the loop between annotation and training.',
     approach:
@@ -172,7 +171,6 @@ export const personalProjects: Project[] = [
     approach:
       'Built in Godot Engine with GDScript. Entity architecture uses state machines for all characters. Custom AI behaviors for enemies, NPCs, and capturable monsters. Complete combat, exploration, and progression systems.',
     tech: ['Godot', 'GDScript'],
-    links: [{ label: 'GitHub', url: 'https://github.com/Moloshow' }],
   },
   {
     id: 'rugby-optimizer',
@@ -185,7 +183,6 @@ export const personalProjects: Project[] = [
     approach:
       'Linear programming / heuristic optimization in Python. Ingests player stats, pricing, and availability data. Solves the constrained optimization problem to find the provably best possible team composition.',
     tech: ['Python', 'Linear Programming'],
-    links: [{ label: 'GitHub', url: 'https://github.com/Moloshow' }],
   },
   {
     id: 'crypto-bot',
@@ -197,6 +194,5 @@ export const personalProjects: Project[] = [
     approach:
       'Real-time data ingestion from exchange APIs. Technical analysis on 5-min OHLCV data. Automated entry/exit signal generation. Capital and risk management logic. Execution via exchange API.',
     tech: ['Python', 'REST APIs', 'Technical Analysis'],
-    links: [{ label: 'GitHub', url: 'https://github.com/Moloshow' }],
   },
 ]
