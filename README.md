@@ -1,8 +1,13 @@
 # Arthur Aries — Portfolio
 
+[![Live Demo](https://img.shields.io/badge/Live-moloshow.github.io-7c3aed?style=for-the-badge&logo=github)](https://moloshow.github.io/)
+[![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+
 Personal portfolio showcasing my work as a Computer Vision & Embedded AI Engineer. Built with **Vite + React + TypeScript**.
 
-## Architecture & Stack
+👉 **[View the live portfolio here](https://moloshow.github.io)**
 
 - **Vite 8** — Blazing fast build tooling
 - **React 19** — UI framework
