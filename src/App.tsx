@@ -32,6 +32,7 @@ function App() {
             <About />
             <Projects />
             <Skills />
+            <Experience />
             <Contact />
           </main>
         )}
