@@ -177,7 +177,7 @@ export function Hero() {
               marginBottom: '2.5rem',
               maxWidth: '550px',
             }}>
-              I build <span className="purple">systems that run in the real world</span>.
+              I build <span className="orange-text">systems that run in the real world</span>.
               <br />
               6+ years of experience in edge inference, semantic segmentation, and MLOps.
               <br />

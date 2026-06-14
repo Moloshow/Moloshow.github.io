@@ -2,19 +2,19 @@
 
 /* ─── Tokens ─── */
 :root {
-  --bg-primary: #0d0b1e;
-  --bg-secondary: #12102a;
-  --bg-card: #1a1836;
-  --border: rgba(167, 139, 250, 0.1);
-  --border-hover: rgba(167, 139, 250, 0.3);
-  --accent: #a78bfa;
-  --accent-dim: rgba(167, 139, 250, 0.15);
-  --text-primary: #e8e6f4;
-  --text-secondary: #9d9bbf;
-  --text-muted: #5c5a7a;
+  --bg-primary: #17100e;
+  --bg-secondary: #1f1411;
+  --bg-card: #2a1b16;
+  --border: rgba(251, 146, 60, 0.15);
+  --border-hover: rgba(251, 146, 60, 0.35);
+  --accent: #fb923c;
+  --accent-dim: rgba(251, 146, 60, 0.15);
+  --text-primary: #f8ede8;
+  --text-secondary: #bfb0a8;
+  --text-muted: #82756d;
 }
 
-.purple {
+.orange-text {
   color: var(--accent) !important;
   font-weight: 500;
 }
@@ -61,13 +61,13 @@ body {
 
 /* ─── Scrollbar ─── */
 ::-webkit-scrollbar { width: 5px; }
-::-webkit-scrollbar-track { background: #1a1836; }
-::-webkit-scrollbar-thumb { background: rgba(167, 139, 250, 0.4); border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: rgba(167, 139, 250, 0.65); }
+::-webkit-scrollbar-track { background: #2a1b16; }
+::-webkit-scrollbar-thumb { background: rgba(251, 146, 60, 0.4); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(251, 146, 60, 0.65); }
 
 /* ─── Selection ─── */
 ::selection {
-  background: rgba(167, 139, 250, 0.25);
+  background: rgba(251, 146, 60, 0.25);
   color: var(--text-primary);
 }
 
@@ -107,13 +107,13 @@ body {
 }
 .card:hover {
   border-color: var(--border-hover);
-  box-shadow: 0 8px 32px rgba(124, 58, 237, 0.15);
+  box-shadow: 0 8px 32px rgba(249, 115, 22, 0.15);
   transform: translateY(-3px);
 }
 
 /* ─── Section divider ─── */
 .section-alt {
-  background: linear-gradient(135deg, rgba(124, 58, 237, 0.04) 0%, rgba(17, 15, 38, 1) 60%);
+  background: linear-gradient(135deg, rgba(249, 115, 22, 0.04) 0%, rgba(23, 16, 14, 1) 60%);
 }
 
 /* ─── Expand button ─── */
@@ -162,14 +162,14 @@ body {
   gap: 0.5rem;
   padding: 1rem 0.75rem;
   border-radius: 10px;
-  background: rgba(167, 139, 250, 0.04);
-  border: 1px solid rgba(167, 139, 250, 0.1);
+  background: rgba(251, 146, 60, 0.04);
+  border: 1px solid rgba(251, 146, 60, 0.15);
   transition: background 0.25s, border-color 0.25s, transform 0.25s;
   cursor: default;
 }
 .tech-icon-card:hover {
-  background: rgba(167, 139, 250, 0.1);
-  border-color: rgba(167, 139, 250, 0.3);
+  background: rgba(251, 146, 60, 0.1);
+  border-color: rgba(251, 146, 60, 0.35);
   transform: translateY(-3px);
 }
 

@@ -41,17 +41,17 @@ export function About() {
 
             <ScrollReveal delay={1}>
               <p style={{ fontSize: '1.15rem', color: 'var(--text-secondary)', lineHeight: 1.8, marginBottom: '1.5rem' }}>
-                Hi Everyone, I am <span className="purple">Arthur Aries</span> from <span className="purple">Mulhouse, France.</span>
-                <br />
-                <br />
-                I am an AI engineer with <span className="purple">6+ years of experience</span> doing computer vision and embedded AI.
-                I primarily work on <span className="purple">industrial and defense</span> projects, deploying systems on edge hardware.
+                Hi Everyone, I am <span className="orange-text">Arthur Aries</span> from <span className="orange-text">Mulhouse, France.</span>
+              </p>
+              <p style={{ fontSize: '1.15rem', color: 'var(--text-secondary)', lineHeight: 1.8, marginBottom: '1.5rem' }}>
+                I am an AI engineer with <span className="orange-text">6+ years of experience</span> doing computer vision and embedded AI.
+                I primarily work on <span className="orange-text">industrial and defense</span> projects, deploying systems on edge hardware.
               </p>
             </ScrollReveal>
 
             <ScrollReveal delay={2}>
               <p style={{ fontSize: '1.15rem', color: 'var(--text-secondary)', lineHeight: 1.8, marginBottom: '1.5rem' }}>
-                I cover the <span className="purple">whole stack:</span> collecting data, training architectures, optimizing for <span className="purple">TensorRT / ONNX</span>, writing the <span className="purple">ROS 2</span> nodes, and deploying.
+                I cover the <span className="orange-text">whole stack:</span> collecting data, training architectures, optimizing for <span className="orange-text">TensorRT / ONNX</span>, writing the <span className="orange-text">ROS 2</span> nodes, and deploying.
               </p>
             </ScrollReveal>
 
@@ -59,15 +59,15 @@ export function About() {
               <p style={{ fontSize: '1.15rem', color: 'var(--text-secondary)', lineHeight: 1.8, marginBottom: '1.5rem' }}>
                 On the side, I built two tools:
                 <br />
-                - <span className="purple">AimFlow</span>: a desktop MLOps platform.
+                - <span className="orange-text">AimFlow</span>: a proprietary end-to-end MLOps ecosystem built from scratch.
                 <br />
-                - <span className="purple">AimLab</span>: an annotation tool using <span className="purple">SAM 2</span>.
+                - <span className="orange-text">AimLab</span>: a custom desktop annotation studio packed with geometry tools and SAM 2 integration.
               </p>
             </ScrollReveal>
 
             <ScrollReveal delay={4}>
               <p style={{ fontSize: '1.15rem', color: 'var(--text-secondary)', lineHeight: 1.8 }}>
-                I am actively looking for <span className="purple">new opportunities</span> in CV, embedded AI, or ML engineering (Alsace or remote).
+                I am actively looking for <span className="orange-text">new opportunities</span> in CV, embedded AI, or ML engineering (Alsace or remote).
               </p>
             </ScrollReveal>
           </div>

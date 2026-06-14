@@ -38,7 +38,7 @@ export function Projects() {
               Projects
             </h2>
             <p style={{ fontSize: '1.15rem', color: 'var(--text-secondary)', marginBottom: '3.5rem', maxWidth: '700px', lineHeight: 1.8 }}>
-              A mix of <span className="purple">client work, internal R&amp;D, and side projects.</span> The client projects are under NDA so the code
+              A mix of <span className="orange-text">client work, internal R&amp;D, and side projects.</span> The client projects are under NDA so the code
               isn't public, but I can talk through everything in detail.
             </p>
           </div>

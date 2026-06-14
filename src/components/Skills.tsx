@@ -142,7 +142,7 @@ export function Skills() {
               lineHeight: 1.8,
               maxWidth: '700px'
             }}>
-              Day-to-day: <span className="purple">Python, PyTorch, OpenCV, TensorRT, ROS 2.</span> TypeScript/React for internal tooling.
+              Day-to-day: <span className="orange-text">Python, PyTorch, OpenCV, TensorRT, ROS 2.</span> TypeScript/React for internal tooling.
             </p>
           </div>
         </ScrollReveal>
