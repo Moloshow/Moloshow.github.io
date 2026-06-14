@@ -56,9 +56,9 @@ export function Navbar() {
         zIndex: 1000,
         transition: 'all 0.3s ease-out 0s',
         padding: scrolled ? '0.3rem 0' : '0.8rem 0',
-        background: scrolled ? 'rgba(27, 26, 46, 0.66)' : 'transparent',
+        background: scrolled ? 'rgba(31, 20, 17, 0.8)' : 'transparent',
         backdropFilter: scrolled ? 'blur(15px)' : 'none',
-        boxShadow: scrolled ? '0px 10px 10px 0px rgba(9, 5, 29, 0.171)' : 'none',
+        boxShadow: scrolled ? '0px 10px 10px 0px rgba(20, 10, 5, 0.171)' : 'none',
       }}
     >
       <div
@@ -139,7 +139,7 @@ export function Navbar() {
           overflow: 'hidden',
           maxHeight: menuOpen ? '300px' : '0',
           transition: 'max-height 0.3s ease',
-          background: 'rgba(7, 9, 15, 0.96)',
+          background: 'rgba(23, 16, 14, 0.96)',
           borderBottom: menuOpen ? '1px solid rgba(255,255,255,0.05)' : 'none',
         }}
       >
