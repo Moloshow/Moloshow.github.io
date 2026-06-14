@@ -67,7 +67,13 @@ export function Navbar() {
       >
         <a
           href="#"
-          onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) }}
+          onClick={(e) => { 
+            e.preventDefault(); 
+            if (window.location.hash === '#resume') {
+              window.location.hash = '#home';
+            }
+            setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 10);
+          }}
           style={{
             fontFamily: "'JetBrains Mono', monospace",
             fontWeight: 800,
