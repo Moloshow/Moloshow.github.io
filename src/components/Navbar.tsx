@@ -108,11 +108,11 @@ export function Navbar() {
               borderRadius: '6px',
               fontSize: '1rem',
               fontWeight: 500,
-              background: 'linear-gradient(135deg, #7c3aed, #a78bfa)',
+              background: 'linear-gradient(135deg, #ea580c, #fb923c)',
               color: '#fff',
               textDecoration: 'none',
               transition: 'opacity 0.2s, transform 0.2s',
-              boxShadow: '0 4px 15px rgba(124,58,237,0.2)',
+              boxShadow: '0 4px 15px rgba(249, 115, 22,0.2)',
             }}
             onMouseEnter={(e) => { e.currentTarget.style.opacity = '0.9'; e.currentTarget.style.transform = 'translateY(-1px)' }}
             onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; e.currentTarget.style.transform = 'none' }}

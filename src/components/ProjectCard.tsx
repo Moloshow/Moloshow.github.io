@@ -28,10 +28,10 @@ function ProjectThumb({ badge, image, logo }: { badge: Badge; image?: string; lo
   }
 
   const palettes: Record<Badge, { line: string; bg: string }> = {
-    'Client Project': { line: '#34d399', bg: 'rgba(52,211,153,0.04)' },
-    'R&D Project':    { line: '#818cf8', bg: 'rgba(129,140,248,0.04)' },
-    'Personal':       { line: '#94a3b8', bg: 'rgba(148,163,184,0.04)' },
-    'Internship':     { line: '#64748b', bg: 'rgba(100,116,139,0.04)' },
+    'Client Project': { line: '#facc15', bg: 'rgba(250,204,21,0.04)' },
+    'R&D Project':    { line: '#f43f5e', bg: 'rgba(244,63,94,0.04)' },
+    'Personal':       { line: '#a8a29e', bg: 'rgba(168,162,158,0.04)' },
+    'Internship':     { line: '#2dd4bf', bg: 'rgba(45,212,191,0.04)' },
   }
   const p = palettes[badge]
 
@@ -67,10 +67,10 @@ function ProjectThumb({ badge, image, logo }: { badge: Badge; image?: string; lo
 
 function BadgePill({ badge }: { badge: Badge }) {
   const styles: Record<Badge, React.CSSProperties> = {
-    'Client Project': { color: '#34d399', background: 'rgba(52,211,153,0.08)', border: '1px solid rgba(52,211,153,0.2)' },
-    'R&D Project':    { color: '#818cf8', background: 'rgba(129,140,248,0.08)', border: '1px solid rgba(129,140,248,0.2)' },
-    'Personal':       { color: '#94a3b8', background: 'rgba(148,163,184,0.08)', border: '1px solid rgba(148,163,184,0.2)' },
-    'Internship':     { color: '#64748b', background: 'rgba(100,116,139,0.08)', border: '1px solid rgba(100,116,139,0.2)' },
+    'Client Project': { color: '#facc15', background: 'rgba(250,204,21,0.08)', border: '1px solid rgba(250,204,21,0.2)' },
+    'R&D Project':    { color: '#f43f5e', background: 'rgba(244,63,94,0.08)', border: '1px solid rgba(244,63,94,0.2)' },
+    'Personal':       { color: '#a8a29e', background: 'rgba(168,162,158,0.08)', border: '1px solid rgba(168,162,158,0.2)' },
+    'Internship':     { color: '#2dd4bf', background: 'rgba(45,212,191,0.08)', border: '1px solid rgba(45,212,191,0.2)' },
   }
   return (
     <span
@@ -176,9 +176,9 @@ export function ProjectCard({ project, index, style }: { project: Project; index
                 borderRadius: '6px',
                 fontSize: '0.75rem',
                 fontWeight: 500,
-                background: 'rgba(167,139,250,0.05)',
+                background: 'rgba(251, 146, 60,0.05)',
                 color: 'var(--text-muted)',
-                border: '1px solid rgba(167,139,250,0.12)',
+                border: '1px solid rgba(251, 146, 60,0.12)',
                 fontFamily: "'JetBrains Mono', monospace",
               }}
             >

@@ -49,7 +49,7 @@ export function Projects() {
           <ScrollReveal>
             <p
               style={{
-                fontSize: '1.4rem', fontWeight: 700, color: 'var(--accent)', marginBottom: '1.5rem', paddingBottom: '0.75rem', borderBottom: '1px solid rgba(167,139,250,0.15)',
+                fontSize: '1.4rem', fontWeight: 700, color: 'var(--accent)', marginBottom: '1.5rem', paddingBottom: '0.75rem', borderBottom: '1px solid rgba(251, 146, 60,0.15)',
               }}
             >
               Professional
@@ -86,7 +86,7 @@ export function Projects() {
           <ScrollReveal>
             <p
               style={{
-                fontSize: '1.4rem', fontWeight: 700, color: 'var(--accent)', marginBottom: '1.5rem', paddingBottom: '0.75rem', borderBottom: '1px solid rgba(167,139,250,0.15)',
+                fontSize: '1.4rem', fontWeight: 700, color: 'var(--accent)', marginBottom: '1.5rem', paddingBottom: '0.75rem', borderBottom: '1px solid rgba(251, 146, 60,0.15)',
               }}
             >
               Personal

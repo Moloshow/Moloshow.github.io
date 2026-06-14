@@ -71,7 +71,7 @@ function TiltAvatar() {
         height: '400px',
         borderRadius: '50%',
         background: 'transparent',
-        boxShadow: '0 10px 40px rgba(124, 58, 237, 0.15), inset 0 0 0 2px rgba(167, 139, 250, 0.3)',
+        boxShadow: '0 10px 40px rgba(249, 115, 22, 0.15), inset 0 0 0 2px rgba(251, 146, 60, 0.3)',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'flex-end',
@@ -86,7 +86,7 @@ function TiltAvatar() {
           width: '105%', 
           height: 'auto',
           marginBottom: '-5%',
-          filter: 'drop-shadow(0 -10px 20px rgba(167,139,250,0.15))',
+          filter: 'drop-shadow(0 -10px 20px rgba(251, 146, 60,0.15))',
           position: 'relative',
           zIndex: 2
         }} 
@@ -113,13 +113,13 @@ export function Hero() {
       <div style={{
         position: 'absolute', top: '-120px', left: '-100px',
         width: '500px', height: '500px', borderRadius: '50%',
-        background: 'radial-gradient(circle, rgba(124,58,237,0.07) 0%, transparent 70%)',
+        background: 'radial-gradient(circle, rgba(249, 115, 22,0.07) 0%, transparent 70%)',
         pointerEvents: 'none',
       }} />
       <div style={{
         position: 'absolute', bottom: '-80px', right: '10%',
         width: '350px', height: '350px', borderRadius: '50%',
-        background: 'radial-gradient(circle, rgba(167,139,250,0.05) 0%, transparent 70%)',
+        background: 'radial-gradient(circle, rgba(251, 146, 60,0.05) 0%, transparent 70%)',
         pointerEvents: 'none',
       }} />
 
@@ -195,7 +195,7 @@ export function Hero() {
                   borderRadius: '50%', 
                   backgroundColor: 'var(--accent)', 
                   display: 'inline-block',
-                  boxShadow: '0 0 8px rgba(167,139,250,0.6)'
+                  boxShadow: '0 0 8px rgba(251, 146, 60,0.6)'
                 }} />
                 Open to new opportunities
               </span>
@@ -208,13 +208,13 @@ export function Hero() {
                 style={{
                   padding: '0.65rem 1.5rem',
                   borderRadius: '8px',
-                  background: 'linear-gradient(135deg, #7c3aed, #a78bfa)',
+                  background: 'linear-gradient(135deg, #ea580c, #fb923c)',
                   color: '#fff',
                   textDecoration: 'none',
                   fontSize: '0.875rem',
                   fontWeight: 600,
                   transition: 'opacity 0.2s, transform 0.2s',
-                  boxShadow: '0 4px 20px rgba(124,58,237,0.35)',
+                  boxShadow: '0 4px 20px rgba(249, 115, 22,0.35)',
                 }}
                 onMouseEnter={(e) => { e.currentTarget.style.opacity = '0.9'; e.currentTarget.style.transform = 'translateY(-1px)' }}
                 onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; e.currentTarget.style.transform = 'none' }}
@@ -236,14 +236,14 @@ export function Hero() {
                     borderRadius: '8px',
                     background: 'transparent',
                     color: 'var(--text-secondary)',
-                    border: '1px solid rgba(167,139,250,0.2)',
+                    border: '1px solid rgba(251, 146, 60,0.2)',
                     textDecoration: 'none',
                     fontSize: '0.875rem',
                     fontWeight: 500,
                     transition: 'border-color 0.2s, color 0.2s',
                   }}
-                  onMouseEnter={(e) => { e.currentTarget.style.borderColor = 'rgba(167,139,250,0.5)'; e.currentTarget.style.color = 'var(--accent)' }}
-                  onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(167,139,250,0.2)'; e.currentTarget.style.color = 'var(--text-secondary)' }}
+                  onMouseEnter={(e) => { e.currentTarget.style.borderColor = 'rgba(251, 146, 60,0.5)'; e.currentTarget.style.color = 'var(--accent)' }}
+                  onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(251, 146, 60,0.2)'; e.currentTarget.style.color = 'var(--text-secondary)' }}
                 >
                   {link.label}
                 </a>

@@ -14,57 +14,57 @@ function HeroIllustration() {
     >
       <svg viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ width: '100%', height: '100%' }}>
         {/* Outer ring */}
-        <circle cx="210" cy="210" r="180" stroke="rgba(167,139,250,0.12)" strokeWidth="1" strokeDasharray="6 8" />
-        <circle cx="210" cy="210" r="140" stroke="rgba(167,139,250,0.08)" strokeWidth="1" />
+        <circle cx="210" cy="210" r="180" stroke="rgba(251, 146, 60,0.12)" strokeWidth="1" strokeDasharray="6 8" />
+        <circle cx="210" cy="210" r="140" stroke="rgba(251, 146, 60,0.08)" strokeWidth="1" />
 
         {/* Central hexagon */}
         <polygon
           points="210,110 286,155 286,245 210,290 134,245 134,155"
-          stroke="rgba(167,139,250,0.4)"
+          stroke="rgba(251, 146, 60,0.4)"
           strokeWidth="1.5"
-          fill="rgba(124,58,237,0.06)"
+          fill="rgba(249, 115, 22,0.06)"
         />
 
         {/* Inner hexagon */}
         <polygon
           points="210,148 254,172 254,220 210,244 166,220 166,172"
-          stroke="rgba(167,139,250,0.2)"
+          stroke="rgba(251, 146, 60,0.2)"
           strokeWidth="1"
-          fill="rgba(124,58,237,0.04)"
+          fill="rgba(249, 115, 22,0.04)"
         />
 
         {/* Center dot */}
-        <circle cx="210" cy="196" r="6" fill="rgba(167,139,250,0.7)" />
+        <circle cx="210" cy="196" r="6" fill="rgba(251, 146, 60,0.7)" />
 
         {/* Orbit nodes */}
-        <circle cx="210" cy="110" r="4" fill="rgba(167,139,250,0.5)" />
-        <circle cx="286" cy="155" r="4" fill="rgba(167,139,250,0.5)" />
-        <circle cx="286" cy="245" r="3" fill="rgba(167,139,250,0.3)" />
-        <circle cx="210" cy="290" r="4" fill="rgba(167,139,250,0.5)" />
-        <circle cx="134" cy="245" r="3" fill="rgba(167,139,250,0.3)" />
-        <circle cx="134" cy="155" r="4" fill="rgba(167,139,250,0.5)" />
+        <circle cx="210" cy="110" r="4" fill="rgba(251, 146, 60,0.5)" />
+        <circle cx="286" cy="155" r="4" fill="rgba(251, 146, 60,0.5)" />
+        <circle cx="286" cy="245" r="3" fill="rgba(251, 146, 60,0.3)" />
+        <circle cx="210" cy="290" r="4" fill="rgba(251, 146, 60,0.5)" />
+        <circle cx="134" cy="245" r="3" fill="rgba(251, 146, 60,0.3)" />
+        <circle cx="134" cy="155" r="4" fill="rgba(251, 146, 60,0.5)" />
 
         {/* Connector lines to outer ring */}
-        <line x1="210" y1="110" x2="210" y2="50" stroke="rgba(167,139,250,0.15)" strokeWidth="1" />
-        <line x1="286" y1="155" x2="340" y2="122" stroke="rgba(167,139,250,0.15)" strokeWidth="1" />
-        <line x1="286" y1="245" x2="340" y2="278" stroke="rgba(167,139,250,0.1)" strokeWidth="1" />
-        <line x1="210" y1="290" x2="210" y2="350" stroke="rgba(167,139,250,0.15)" strokeWidth="1" />
-        <line x1="134" y1="245" x2="80" y2="278" stroke="rgba(167,139,250,0.1)" strokeWidth="1" />
-        <line x1="134" y1="155" x2="80" y2="122" stroke="rgba(167,139,250,0.15)" strokeWidth="1" />
+        <line x1="210" y1="110" x2="210" y2="50" stroke="rgba(251, 146, 60,0.15)" strokeWidth="1" />
+        <line x1="286" y1="155" x2="340" y2="122" stroke="rgba(251, 146, 60,0.15)" strokeWidth="1" />
+        <line x1="286" y1="245" x2="340" y2="278" stroke="rgba(251, 146, 60,0.1)" strokeWidth="1" />
+        <line x1="210" y1="290" x2="210" y2="350" stroke="rgba(251, 146, 60,0.15)" strokeWidth="1" />
+        <line x1="134" y1="245" x2="80" y2="278" stroke="rgba(251, 146, 60,0.1)" strokeWidth="1" />
+        <line x1="134" y1="155" x2="80" y2="122" stroke="rgba(251, 146, 60,0.15)" strokeWidth="1" />
 
         {/* Floating dots */}
-        <circle cx="80" cy="122" r="3" fill="rgba(167,139,250,0.25)" />
-        <circle cx="340" cy="122" r="3" fill="rgba(167,139,250,0.25)" />
-        <circle cx="210" cy="50" r="3" fill="rgba(167,139,250,0.25)" />
-        <circle cx="210" cy="350" r="3" fill="rgba(167,139,250,0.25)" />
-        <circle cx="80" cy="278" r="2" fill="rgba(167,139,250,0.15)" />
-        <circle cx="340" cy="278" r="2" fill="rgba(167,139,250,0.15)" />
+        <circle cx="80" cy="122" r="3" fill="rgba(251, 146, 60,0.25)" />
+        <circle cx="340" cy="122" r="3" fill="rgba(251, 146, 60,0.25)" />
+        <circle cx="210" cy="50" r="3" fill="rgba(251, 146, 60,0.25)" />
+        <circle cx="210" cy="350" r="3" fill="rgba(251, 146, 60,0.25)" />
+        <circle cx="80" cy="278" r="2" fill="rgba(251, 146, 60,0.15)" />
+        <circle cx="340" cy="278" r="2" fill="rgba(251, 146, 60,0.15)" />
 
         {/* Glowing outer dots */}
-        <circle cx="30" cy="210" r="2" fill="rgba(167,139,250,0.2)" />
-        <circle cx="390" cy="210" r="2" fill="rgba(167,139,250,0.2)" />
-        <circle cx="155" cy="35" r="2" fill="rgba(167,139,250,0.15)" />
-        <circle cx="265" cy="35" r="2" fill="rgba(167,139,250,0.15)" />
+        <circle cx="30" cy="210" r="2" fill="rgba(251, 146, 60,0.2)" />
+        <circle cx="390" cy="210" r="2" fill="rgba(251, 146, 60,0.2)" />
+        <circle cx="155" cy="35" r="2" fill="rgba(251, 146, 60,0.15)" />
+        <circle cx="265" cy="35" r="2" fill="rgba(251, 146, 60,0.15)" />
       </svg>
 
       {/* Purple glow behind illustration */}
@@ -72,7 +72,7 @@ function HeroIllustration() {
         position: 'absolute',
         inset: 0,
         borderRadius: '50%',
-        background: 'radial-gradient(circle, rgba(124,58,237,0.12) 0%, transparent 65%)',
+        background: 'radial-gradient(circle, rgba(249, 115, 22,0.12) 0%, transparent 65%)',
         pointerEvents: 'none',
         zIndex: -1,
       }} />

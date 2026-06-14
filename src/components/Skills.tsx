@@ -121,7 +121,7 @@ export function Skills() {
     <section
       id="skills"
       className="section-padding section-alt"
-      style={{ borderTop: '1px solid rgba(167,139,250,0.08)' }}
+      style={{ borderTop: '1px solid rgba(251, 146, 60,0.08)' }}
     >
       <div className="section-container">
         <ScrollReveal>
@@ -171,7 +171,7 @@ export function Skills() {
                     fontWeight: 700,
                     color: 'var(--accent)',
                     paddingBottom: '0.5rem',
-                    borderBottom: '1px solid rgba(167,139,250,0.2)',
+                    borderBottom: '1px solid rgba(251, 146, 60,0.2)',
                     textAlign: 'center',
                     margin: 0,
                     lineHeight: 1.3
@@ -197,9 +197,9 @@ export function Skills() {
                       padding: '0.3rem 0.8rem',
                       borderRadius: '6px',
                       fontSize: '0.85rem',
-                      background: 'rgba(167,139,250,0.05)',
+                      background: 'rgba(251, 146, 60,0.05)',
                       color: 'var(--text-secondary)',
-                      border: '1px solid rgba(167,139,250,0.12)',
+                      border: '1px solid rgba(251, 146, 60,0.12)',
                       fontFamily: "'JetBrains Mono', monospace",
                     }}>
                       {t}

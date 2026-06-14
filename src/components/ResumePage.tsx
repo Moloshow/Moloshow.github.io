@@ -44,7 +44,7 @@ export function ResumePage() {
 
         <div style={{ width: '1px', background: 'rgba(255,255,255,0.1)', margin: '0 0.5rem' }} />
 
-        <a href={pdfFile} download style={{ display: 'inline-flex', alignItems: 'center', padding: '0.5rem 1.25rem', background: 'linear-gradient(135deg, #7c3aed, #a78bfa)', color: '#fff', textDecoration: 'none', borderRadius: '6px', fontWeight: 600, transition: '0.2s', boxShadow: '0 4px 15px rgba(124,58,237,0.3)' }} onMouseEnter={e => e.currentTarget.style.transform = 'translateY(-1px)'} onMouseLeave={e => e.currentTarget.style.transform = 'none'}>
+        <a href={pdfFile} download style={{ display: 'inline-flex', alignItems: 'center', padding: '0.5rem 1.25rem', background: 'linear-gradient(135deg, #ea580c, #fb923c)', color: '#fff', textDecoration: 'none', borderRadius: '6px', fontWeight: 600, transition: '0.2s', boxShadow: '0 4px 15px rgba(249, 115, 22,0.3)' }} onMouseEnter={e => e.currentTarget.style.transform = 'translateY(-1px)'} onMouseLeave={e => e.currentTarget.style.transform = 'none'}>
           <svg style={{ width: '18px', height: '18px', marginRight: '0.5rem' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
           </svg>
