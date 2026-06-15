@@ -15,11 +15,6 @@ Personal portfolio showcasing my work as a Computer Vision & Embedded AI Enginee
   <img src="readme_assets/demo.gif" alt="Animated Portfolio Demo" width="100%" />
 </p>
 
-<p align="center">
-  <img src="readme_assets/hero_desktop.png" alt="Desktop View" width="68%" />
-  &nbsp;
-  <img src="readme_assets/hero_mobile.png" alt="Mobile View" width="30%" />
-</p>
 
 <br/>
 
