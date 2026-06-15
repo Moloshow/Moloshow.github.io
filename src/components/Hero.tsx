@@ -177,9 +177,9 @@ export function Hero() {
               marginBottom: '2.5rem',
               maxWidth: '550px',
             }}>
-              I build <span className="orange-text">systems that run in the real world</span>.
+              I build <span className="orange-text">AI systems that run in the real world</span>.
               <br />
-              6+ years of experience in edge inference, semantic segmentation, and MLOps.
+              6+ years of experience in Computer Vision, Deep Learning, Edge AI, and MLOps.
               <br />
               <span style={{ 
                 display: 'inline-flex', 
