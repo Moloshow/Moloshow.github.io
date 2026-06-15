@@ -22,7 +22,7 @@ export function ResumePage() {
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
-  const pdfFile = `/ARIES_Arthur_${lang === 'EN' ? 'Resume' : 'CV'}${size === 'short' ? '_short' : ''}.pdf`
+  const pdfFile = `/ARIES_Arthur_${lang === 'EN' ? 'Resume' : 'CV'}_Computer_Vision_Engineer${size === 'short' ? '_short' : ''}.pdf`
 
   return (
     <div style={{ minHeight: '100vh', paddingTop: '100px', paddingBottom: '4rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>

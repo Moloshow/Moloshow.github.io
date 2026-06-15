@@ -161,6 +161,18 @@ export const professionalProjects: Project[] = [
 
 export const personalProjects: Project[] = [
   {
+    id: 'formulia1',
+    title: 'FormulIA1',
+    image: '/formulia1.gif',
+    subtitle: 'F1 Computer Vision Pipeline',
+    badge: 'Personal',
+    description:
+      'Modular Computer Vision pipeline to extract physical trajectories and structural insights from Formula 1 broadcast video feeds. Features instance segmentation, restricted ego-motion homography, and optional monocular depth estimation.',
+    approach:
+      'Decoupled two-stage cascade architecture (Detection ➔ Classification). Uses YOLOv8-seg for tracking and a lightweight classifier for team identification. Implements an automated data engineering pipeline via foundation models (SegFormer, SAM) to generate pixel-perfect datasets from bounding boxes.',
+    tech: ['Python', 'PyTorch', 'YOLOv8', 'OpenCV', 'HuggingFace', 'SAM', 'SegFormer'],
+  },
+  {
     id: 'flavoria',
     title: 'Flavoria',
     image: '/flavoria.png',

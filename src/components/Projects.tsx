@@ -101,7 +101,7 @@ export function Projects() {
             }}
           >
             {personalProjects.map((project, i) => (
-              <ProjectCard key={project.id} project={project} index={i} style={{ flex: '1 1 290px', maxWidth: '480px' }} />
+              <ProjectCard key={project.id} project={project} index={i} style={{ flex: '1 1 calc(50% - 1.25rem)', minWidth: '290px', maxWidth: '600px' }} />
             ))}
           </div>
         </div>
