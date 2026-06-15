@@ -9,6 +9,20 @@ Personal portfolio showcasing my work as a Computer Vision & Embedded AI Enginee
 
 👉 **[View the live portfolio here](https://moloshow.github.io)**
 
+<br/>
+
+<p align="center">
+  <img src="readme_assets/demo.gif" alt="Animated Portfolio Demo" width="100%" />
+</p>
+
+<p align="center">
+  <img src="readme_assets/hero_desktop.png" alt="Desktop View" width="68%" />
+  &nbsp;
+  <img src="readme_assets/hero_mobile.png" alt="Mobile View" width="30%" />
+</p>
+
+<br/>
+
 - **Vite 8** — Blazing fast build tooling
 - **React 19** — UI framework
 - **TypeScript** — End-to-end type safety
