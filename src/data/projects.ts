@@ -161,6 +161,21 @@ export const professionalProjects: Project[] = [
 
 export const personalProjects: Project[] = [
   {
+    id: 'bandejai',
+    title: 'BandejAI',
+    image: '/bandejai_example.gif',
+    subtitle: 'Tactical & Statistical Padel Analysis Engine',
+    badge: 'Personal',
+    description:
+      'Open-source ecosystem for padel, extracting tactical metrics from a single monocular video. Currently features a robust 2D player tracking and homography pipeline, with an architecture designed to integrate multimodal fusion (acoustic analysis & local LLMs).',
+    approach:
+      'Implemented a 3-pass offline batch orchestrator. Uses YOLOv8 + ByteTrack for player tracking, Homography for court projection, and integrates scene detection for automated rally extraction. Architecture strictly isolates deep learning extraction, deterministic kinematics, and semantic reasoning.',
+    links: [
+      { label: 'GitHub', url: 'https://github.com/Moloshow/BandejAI' }
+    ],
+    tech: ['Python', 'PyTorch', 'YOLOv8', 'OpenCV', 'PySceneDetect', 'Homography'],
+  },
+  {
     id: 'formulia1',
     title: 'FormulIA1',
     image: '/formulia1.gif',
@@ -170,6 +185,9 @@ export const personalProjects: Project[] = [
       'Modular Computer Vision pipeline to extract physical trajectories and structural insights from Formula 1 broadcast video feeds. Features instance segmentation, restricted ego-motion homography, and optional monocular depth estimation.',
     approach:
       'Decoupled two-stage cascade architecture (Detection ➔ Classification). Uses YOLOv8-seg for tracking and a lightweight classifier for team identification. Implements an automated data engineering pipeline via foundation models (SegFormer, SAM) to generate pixel-perfect datasets from bounding boxes.',
+    links: [
+      { label: 'GitHub', url: 'https://github.com/Moloshow/formulIA1' }
+    ],
     tech: ['Python', 'PyTorch', 'YOLOv8', 'OpenCV', 'HuggingFace', 'SAM', 'SegFormer'],
   },
   {
@@ -195,16 +213,5 @@ export const personalProjects: Project[] = [
     approach:
       'Linear programming / heuristic optimization in Python. Ingests player stats, pricing, and availability data. Solves the constrained optimization problem to find the provably best possible team composition.',
     tech: ['Python', 'Linear Programming'],
-  },
-  {
-    id: 'crypto-bot',
-    title: 'Crypto Trading Bot',
-    subtitle: 'Automated Bitcoin Day-Trading (5-min charts)',
-    badge: 'Personal',
-    description:
-      'Automated trading bot operating on Bitcoin with 5-minute candlestick data, featuring technical analysis signals, automated execution, and risk management.',
-    approach:
-      'Real-time data ingestion from exchange APIs. Technical analysis on 5-min OHLCV data. Automated entry/exit signal generation. Capital and risk management logic. Execution via exchange API.',
-    tech: ['Python', 'REST APIs', 'Technical Analysis'],
   },
 ]

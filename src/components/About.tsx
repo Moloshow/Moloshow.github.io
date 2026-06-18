@@ -67,7 +67,7 @@ export function About() {
 
             <ScrollReveal delay={4}>
               <p style={{ fontSize: '1.15rem', color: 'var(--text-secondary)', lineHeight: 1.8 }}>
-                I am actively looking for <span className="orange-text">new opportunities</span> in CV, embedded AI, or ML engineering (Alsace or remote).
+                Outside of work, I explore ideas through <span className="orange-text">personal projects</span>, from a tactical padel AI engine (<span className="orange-text">BandejAI</span>) and F1 tracking pipeline (<span className="orange-text">FormulIA1</span>) to a 2D game (<span className="orange-text">Flavoria</span>) and others.
               </p>
             </ScrollReveal>
           </div>
